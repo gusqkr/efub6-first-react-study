@@ -12,7 +12,33 @@ import Accommodate from "./chapter_07/Accommodate";
 import ConfirmButton from "./chapter_08/ConfirmButton";
 import LandingPage from "./chapter_09/LandingPage";
 import AttendanceBook from "./chapter_10/AttendanceBook";
+import ProfileCard from "./chapter_13/ProfileCard";
+import Calculator from "./chapter_12/Calculator";
+import SignUp from "./chapter_11/SignUp";
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <SignUp />
+  </React.StrictMode>,
+);
+/*
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <Calculator />
+  </React.StrictMode>,
+);
+*/
+/*
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <ProfileCard />
+  </React.StrictMode>,
+);
+*/
+/*
 const root = ReactDOM.createRoot(document.getElementById("root"));
 setInterval(() => {
   root.render(
@@ -21,6 +47,7 @@ setInterval(() => {
     </React.StrictMode>,
   );
 }, 1000);
+*/
 /*
 const root = ReactDOM.createRoot(document.getElementById("root"));
 setInterval(() => {
